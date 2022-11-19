@@ -35,6 +35,7 @@
       </config-file>
 
       <source-file src="src/android/BluetoothPrinter.java" target-dir="src/br/com/cordova/printer/bluetooth" />
+      <source-file src="src/android/IminLibs.jar" target-dir="libs"/>
 
    </platform>
 </plugin>
