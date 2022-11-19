@@ -43,7 +43,7 @@ var BTPrinter = {
     printBarcode: function (fnSuccess, fnError, system, data, align, position, font, height) {
         exec(fnSuccess, fnError, "BluetoothPrinter", "printBarcode", [system, data, align, position, font, height]);
     }
-    printBarcode: function (fnSuccess, fnError, system, data, align, position, font, height) {
+    opencashBox: function (fnSuccess, fnError, system, data, align, position, font, height) {
         exec(fnSuccess, fnError, "BluetoothPrinter", "opencashBox", [system, data, align, position, font, height]);
     }
 };
